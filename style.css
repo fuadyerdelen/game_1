@@ -1,0 +1,68 @@
+body{
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+}
+
+.cont{
+    border: 2px black solid;
+    width: 30%;
+    height: 80px;
+    margin: 1%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    background-size: cover;
+
+}
+.cont:focus{    
+    transform: rotateY(180deg);
+    background-image: url();
+    transition-duration: 0.4s;
+}
+label{
+    margin-left: 12px;
+}
+#scoore {
+    display: block;
+    width: 40%;
+    height: 40px;
+    margin-left: 12px;
+}
+#time{
+    display: block;
+    width: 40%;
+    height: 40px;
+    margin-left: 12px;
+  
+}
+#start{
+    position: absolute;
+    top: 80px;
+    right: 24px;
+    display: block;
+    width: 40%;
+    height: 60px;
+}
+
+#a1:focus   {background-color: seagreen;}
+#a2:focus   {background-color: black;}
+#a3:focus   {background-color: purple ;}
+#a4:focus   {background-color: red ;}
+#a5:focus   {background-color: seagreen;}
+#a6:focus   {background-color: yellow ;}
+#a7:focus   {background-color: darkblue ;}
+#a8:focus   {background-color: purple;}
+#a9:focus   {background-color: darkkhaki ;}
+#a10:focus  {background-color: deepskyblue;}
+#a11:focus  {background-color: red;}
+#a12:focus  {background-color: black;}
+#a13:focus  {background-color: darkkhaki;}
+#a14:focus  {background-color: yellow;}
+#a15:focus  {background-color: deepskyblue;}
+#a16:focus  {background-color: darkblue;}
+#a17:focus  {background-color: pink;}
+#a18:focus  {background-color: pink;}
+
+

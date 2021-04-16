@@ -5,9 +5,18 @@ h1{
     text-align: center;
 }
 
+.game{
+    display: block;
+    width: 98%;
+    height: 410px;
+    margin: auto;
+    padding-left: 10px;
+    margin-top: 10px;
+
+}
 .cont{
     border: 2px black solid;
-    width: 30%;
+    width: 31%;
     height: 80px;
     margin: 1%;
     float: left;
@@ -18,32 +27,45 @@ h1{
 }
 .cont:focus{    
     transform: rotateY(180deg);
-    background-image: url();
     transition-duration: 0.4s;
 }
-label{
-    margin-left: 12px;
+
+.header{
+   
+    height: 100px;
 }
-#scoore {
+
+.score{
+    position:absolute;
     display: block;
-    width: 40%;
-    height: 40px;
-    margin-left: 12px;
+    width: 30%;
+    height: 100px;
+    margin-left: 10px;
+    border: black solid 2px;
+    line-height: 80px;
+    font-size: 2em;
+    text-align: center;
 }
-#time{
+
+.timer{
     display: block;
-    width: 40%;
-    height: 40px;
-    margin-left: 12px;
-  
+    width: 30%;
+    height: 100px;
+    margin: 0 auto;
+    border: black solid 2px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 2em;
 }
+
 #start{
+    display: inline-block;
     position: absolute;
-    top: 80px;
-    right: 24px;
-    display: block;
-    width: 40%;
-    height: 60px;
+    top: 40px;
+    right: 2px;
+    width: 30%;
+    height: 100px;
+    margin-right: 10px;
 }
 
 #a1:focus   {background-color: seagreen;}
@@ -54,7 +76,7 @@ label{
 #a6:focus   {background-color: yellow ;}
 #a7:focus   {background-color: darkblue ;}
 #a8:focus   {background-color: purple;}
-#a9:focus   {background-color: darkkhaki ;}
+#a9:focus   {background-color: darkkhaki ;} 
 #a10:focus  {background-color: deepskyblue;}
 #a11:focus  {background-color: red;}
 #a12:focus  {background-color: black;}
@@ -66,3 +88,250 @@ label{
 #a18:focus  {background-color: pink;}
 
 
+@media (min-width: 576px) { 
+    .game{
+        display: block;
+        width: 98%;
+        height: 410px;
+        margin: auto;
+        padding-left: 60px;
+        margin-top: 10px;
+    
+    }
+    .cont{
+        border: 2px black solid;
+        width: 20%;
+        height: 120px;
+        margin: 0.6%;
+        float: left;
+        text-align: center;
+        text-decoration: none;
+        background-size: cover;
+    }
+    .header{
+   
+        height: 100px;
+    }
+    
+    .score{
+        position:absolute;
+        display: block;
+        width: 15%;
+        height: 100px;
+        margin-left: 10px;
+        border: black solid 2px;
+        line-height: 80px;
+        font-size: 2em;
+        text-align: center;
+       
+    }
+    .timer{
+        display: block;
+        width: 15%;
+        height: 100px;
+        margin: 0 auto;
+        border: black solid 2px;
+        text-align: center;
+        line-height: 80px;
+        font-size: 2em;
+       
+        
+        
+      
+    }
+    #start{
+        display: inline-block;
+        position: absolute;
+        top: 57px;
+        right: 4px;
+        width: 15%;
+        height: 100px;
+        margin-right: 10px;
+    }
+
+}
+@media (min-width: 768px) {    
+    .game{
+        display: block;
+        width: 98%;
+        height: 410px;
+        margin: auto;
+        padding-left: 60px;
+        margin-top: 10px;
+    
+    }
+    .cont{
+        border: 2px black solid;
+        width: 14%;
+        height: 120px;
+        margin: 0.6%;
+        float: left;
+        text-align: center;
+        text-decoration: none;
+        background-size: cover;
+    }
+    .header{
+   
+        height: 100px;
+    }
+    
+    .score{
+        position:absolute;
+        display: block;
+        width: 15%;
+        height: 100px;
+        margin-left: 10px;
+        border: black solid 2px;
+        line-height: 80px;
+        font-size: 2em;
+        text-align: center;
+       
+    }
+    .timer{
+        display: block;
+        width: 15%;
+        height: 100px;
+        margin: 0 auto;
+        border: black solid 2px;
+        text-align: center;
+        line-height: 80px;
+        font-size: 2em;
+       
+        
+        
+      
+    }
+    #start{
+        display: inline-block;
+        position: absolute;
+        top: 57px;
+        right: 4px;
+        width: 15%;
+        height: 100px;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 992px) { 
+    .game{
+        display: block;
+        width: 98%;
+        height: 410px;
+        margin: auto;
+        padding-left: 60px;
+        margin-top: 10px;
+    
+    }
+    .cont{
+        border: 2px black solid;
+        width: 14%;
+        height: 120px;
+        margin: 0.6%;
+        float: left;
+        text-align: center;
+        text-decoration: none;
+        background-size: cover;
+    }
+    .header{
+   
+        height: 100px;
+    }
+    
+    .score{
+        position:absolute;
+        display: block;
+        width: 15%;
+        height: 100px;
+        margin-left: 10px;
+        border: black solid 2px;
+        line-height: 80px;
+        font-size: 2em;
+        text-align: center;
+       
+    }
+    .timer{
+        display: block;
+        width: 15%;
+        height: 100px;
+        margin: 0 auto;
+        border: black solid 2px;
+        text-align: center;
+        line-height: 80px;
+        font-size: 2em;
+       
+        
+        
+      
+    }
+    #start{
+        display: inline-block;
+        position: absolute;
+        top: 57px;
+        right: 4px;
+        width: 15%;
+        height: 100px;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .game{
+        display: block;
+        width: 98%;
+        height: 410px;
+        margin: auto;
+        padding-left: 60px;
+        margin-top: 10px;
+    
+    }
+    .cont{
+        border: 2px black solid;
+        width: 14%;
+        height: 120px;
+        margin: 0.6%;
+        float: left;
+        text-align: center;
+        text-decoration: none;
+        background-size: cover;
+    }
+    .header{
+   
+        height: 100px;
+    }
+    
+    .score{
+        position:absolute;
+        display: block;
+        width: 15%;
+        height: 100px;
+        margin-left: 10px;
+        border: black solid 2px;
+        line-height: 80px;
+        font-size: 2em;
+        text-align: center;
+       
+    }
+    .timer{
+        display: block;
+        width: 15%;
+        height: 100px;
+        margin: 0 auto;
+        border: black solid 2px;
+        text-align: center;
+        line-height: 80px;
+        font-size: 2em;
+       
+        
+        
+      
+    }
+    #start{
+        display: inline-block;
+        position: absolute;
+        top: 57px;
+        right: 4px;
+        width: 15%;
+        height: 100px;
+        margin-right: 10px;
+    }
+}
